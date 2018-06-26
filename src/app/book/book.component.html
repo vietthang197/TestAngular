@@ -1,0 +1,10 @@
+
+<input placeholder="enter your name" (keyup)="inputRealtime($event)"/>
+  <h1>Value you write is : {{name}}</h1>
+  <h3></h3>
+<input placeholder="using ngmodel" [(ngModel)] ="ngmodels" (keyup)="sukien($event)"/>
+<h2 [style.color]="color">using ngModels value : {{ngmodels}}</h2>
+
+<p *ngIf="isShow">Content Toggle</p>
+<button (click)="isShow  = !isShow"> Dis me oc cho</button>
+

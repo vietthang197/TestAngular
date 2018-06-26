@@ -6,6 +6,9 @@ import { Component } from '@angular/core';
     styleUrls: ['./word.component.css']
 })
 export class WordComponent {
-      motherfucker = 'fucker';
+      toogle = true;
+      toogleForgot() {
+        this.toogle = !this.toogle;
+      }
 }
 

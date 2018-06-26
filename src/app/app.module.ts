@@ -4,6 +4,7 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { WordComponent } from './word/word.component';
 import { BookComponent } from './book/book.component';
+import {FormsModule} from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -12,7 +13,8 @@ import { BookComponent } from './book/book.component';
       BookComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+      FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
